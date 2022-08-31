@@ -1,0 +1,26 @@
+/*ESTILOS DE PRESENTACIÓN*/
+#presentacion {
+  background-image: url(IMAGENES/Central/imagenCentral.png);
+  height: 100%;
+  width: 100vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.presentacionContenedor {
+  width: 40vw;
+}
+
+/*MEDIAS QUERYS*/
+@media only screen and (min-width: 480px) and (max-width: 960px) {
+  #fondoTransparente {
+    background-color: rgba(0, 0, 0, 0.66) !important;
+    padding: 1rem;
+  }
+  #imagenCentral {
+    height: 100%;
+  }
+}
+@media only screen and (min-width: 961px) and (max-width: 1200px) {
+}
+@media only screen and (min-width: 1201px) {
+}
